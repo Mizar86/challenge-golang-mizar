@@ -229,9 +229,75 @@ your challenge can be evaluated.
 
 ## Explanation
 
-...
+Based on the requirements and what is expected in terms of the architecture and skills used to complete the challenge.
 
-...
+### Time using
+
+Reading the Readme took me about 20 minutes, although it was easy to understand the document, it took a little while to process it.
+
+Try not to spend too much time on the challenge and focus on what is most important.
+
+After meditating on it throughout the day. Use about 2 hours to put together the project divided into two sections.
+
+### DDD and Hexagonal Architecture 
+
+In my developments I had used a Hexagonal architecture and complemented it with other architectures that helped me separate responsibilities.
+In this challenge, try to use DDD and Hexagonal Architecture, to separate both the business logic, as well as the core of the application from other technical aspects, as well as make use of function names that understand the business. 
+
+The folder structure separating the application from the architecture and ports, as well as the domain to separate business elements reflecting a bit of what DDD and Hexagonal Architecture can help.
+
+    challenge-golang-mizar
+    │   .gitlab-ci.yml
+    │   Dockerfile
+    │   go.mod
+    │   go.sum
+    │   README.md
+    │   
+    ├───cmd
+    │       main.go
+    │       
+    └───internal
+        ├───application
+        │       car_service.go
+        │
+        ├───domain
+        │       car.go
+        │       group.go
+        │
+        └───infrastructure
+            └───http
+                    handler.go
+                    server.go
+
+### Bases
+
+* Use language in the naming of my functions that conveys their functionality
+
+* Entities. I separated the relevant entities.
+
+* I separated the application logic from the infrastructure used.
+
+* Try to use a simple and clean design.
+
+* Error handling with their respective codes that facilitate testing.
+
+* Compliance with the contracts indicated in the document.
+
+* Code documentation.
+
+## Extra :information_source:
+
+Unfortunately I don't have much experience using Gitlab so I couldn't complete this part.
+
+But I am someone who likes to learn everything I can, it is easy for me to adapt to the ways of working and methodologies used by other teams. :smile:
+
+I like to work and overcome challenges every time I have the opportunity. 
+
+I always manage to give a different perspective to problems, which usually come out of the everyday. 
+
+If I am given the opportunity and with your help, I am sure that we can form an excellent team.
+
+Thank you so much. :smile:
 
 ## Help
 If you need any specific help or doubt, please reach us sending an email to the following address: `backend.hiring.help@wallbox.com`, 
