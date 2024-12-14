@@ -269,6 +269,10 @@ The folder structure separating the application from the architecture and ports,
                     handler.go
                     server.go
 
+:warning: I thought about using a more complete structure, for example dividing more responsibilities into different files, but it would take up more time and I thought it wasn't as necessary. 
+
+:warning: In a next interaction you will need to create a method to handle the Teams that are sent to the queue
+
 ### Bases
 
 * Use language in the naming of my functions that conveys their functionality
